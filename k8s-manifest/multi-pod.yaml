@@ -11,4 +11,4 @@ spec:
     - name: web-app 
       image: muralisocial123/web-app-test:latest
       ports:
-        - containerPort: 80    
+        - containerPort: 80
