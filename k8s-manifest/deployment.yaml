@@ -1,0 +1,20 @@
+apiVersion: apps/v1 
+kind: Deployment  
+metadata: 
+  name: sample-web-deployment  
+spec:
+  replicas: 3 
+  selector:
+    matchLabels:
+      app: web    
+  template:
+    metadata:
+      name: web 
+      labels:
+        app: web 
+    spec: 
+      containers:
+        - name: node-app
+          image: muralisocial123/node-app-example
+          ports: 
+            - containerPort: 3000

@@ -1,0 +1,12 @@
+apiVersion: v1 
+kind: Pod 
+metadata:
+  name: node-app 
+spec: 
+  containers:
+    - name: node-web 
+      image: muralisocial123/node-app-example:latest
+      ports: 
+        - containerPort: 3000
+    
+
