@@ -59,6 +59,9 @@ Create a cluster :
 
 eksctl create cluster --name eks-cluster --version 1.28 -- region ap-southeast-1 --nodegroup-name test-linux --node-type t2.medium --node 2 
 
+To connect a specific cluster :
+
+aws eks update-kubeconfig –-name test-cluster –-region ap-south-1
 Kubernetes Commands :
 
 kubectl get nodes 
@@ -73,3 +76,12 @@ To get a resources on a specific namepace :
 
 kubectl get pods or deployments -n namespace name 
 
+Describe the pod to see the logs :
+
+kubectl describe pod podname 
+kubectl describe deployment deploymentname 
+
+
+Application URL :
+
+http://aed931533cc1d4be1939d17c73bc6afe-917006222.us-west-1.elb.amazonaws.com:3000/
