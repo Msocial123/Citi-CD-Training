@@ -68,4 +68,8 @@ kubectl apply -f manifest-filename
 kubectl get pods  - To see all the Pods 
 Kubectl get deployments - To See all the deployment
 kubectl get namespace - To see all the namespaces 
- 
+
+To get a resources on a specific namepace : 
+
+kubectl get pods or deployments -n namespace name 
+
