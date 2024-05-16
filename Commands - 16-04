@@ -85,3 +85,11 @@ kubectl describe deployment deploymentname
 Application URL :
 
 http://aed931533cc1d4be1939d17c73bc6afe-917006222.us-west-1.elb.amazonaws.com:3000/
+
+
+Deploy the MicroService :
+
+git clone https://github.com/GoogleCloudPlatform/microservices-demo
+cd microservices-demo/
+
+kubectl apply -f ./release/kubernetes-manifests.yaml
