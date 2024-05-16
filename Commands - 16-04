@@ -45,6 +45,12 @@ curl https://raw.githubusercontent.com/Msocial123/k8-install-eks/master/eks-clie
 
 chmod +x ./kubectl
 
+Login with IAM User - From Console :
+
+aws configure 
+
+
+
 Create a cluster : 
 
 
