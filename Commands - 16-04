@@ -64,3 +64,8 @@ Kubernetes Commands :
 kubectl get nodes 
 
 kubectl apply -f manifest-filename 
+
+kubectl get pods  - To see all the Pods 
+Kubectl get deployments - To See all the deployment
+kubectl get namespace - To see all the namespaces 
+ 
