@@ -12,3 +12,31 @@ unzip awscliv2.zip
 sudo ./aws/install
 
 /usr/local/bin/aws --version
+
+Install EKSCTL :
+
+https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/setting-up-eksctl.html 
+
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+
+sudo mv /tmp/eksctl /usr/local/bin
+
+eksctl version
+
+Install kubectl :
+
+https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
+
+curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.28.8/2024-04-19/bin/linux/amd64/kubectl
+
+curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.28.8/2024-04-19/bin/linux/amd64/kubectl.sha256
+
+sha256sum -c kubectl.sha256
+
+openssl sha1 -sha256 kubectl
+
+mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$HOME/bin:$PATH
+
+echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+
+kubectl version --client
