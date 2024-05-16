@@ -44,3 +44,8 @@ kubectl version --client
 curl https://raw.githubusercontent.com/Msocial123/k8-install-eks/master/eks-client.sh | sudo bash
 
 chmod +x ./kubectl
+
+Create a cluster : 
+
+
+eksctl create cluster --name eks-cluster --version 1.28 -- region ap-southeast-1 --nodegroup-name test-linux --node-type t2.medium --node 2 
