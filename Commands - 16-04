@@ -95,3 +95,8 @@ cd microservices-demo/
 kubectl apply -f ./release/kubernetes-manifests.yaml
 
 Kubectl get svc -- Check the FrondEnd - Exteral - Get the Load Balancer URL - We can access 
+
+
+Installing Jenkins on EC2 :
+
+https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
