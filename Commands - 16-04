@@ -42,3 +42,5 @@ echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
 kubectl version --client
 
 curl https://raw.githubusercontent.com/Msocial123/k8-install-eks/master/eks-client.sh | sudo bash
+
+chmod +x ./kubectl
