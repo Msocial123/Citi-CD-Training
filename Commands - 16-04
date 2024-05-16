@@ -45,6 +45,11 @@ curl https://raw.githubusercontent.com/Msocial123/k8-install-eks/master/eks-clie
 
 chmod +x ./kubectl
 
+or 
+
+chmod +x /root/bin/kubectl
+
+
 Login with IAM User - From Console :
 
 aws configure 
