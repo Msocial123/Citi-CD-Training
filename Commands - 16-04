@@ -54,9 +54,13 @@ Login with IAM User - From Console :
 
 aws configure 
 
-
-
 Create a cluster : 
 
 
 eksctl create cluster --name eks-cluster --version 1.28 -- region ap-southeast-1 --nodegroup-name test-linux --node-type t2.medium --node 2 
+
+Kubernetes Commands :
+
+kubectl get nodes 
+
+kubectl apply -f manifest-filename 
