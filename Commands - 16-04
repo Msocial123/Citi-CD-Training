@@ -123,5 +123,9 @@ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scrip
 chmod 700 get_helm.sh
 ./get_helm.sh
 
+Connect to cluster :
+
+aws eks update-kubeconfig –name test-cluster –region ap-south-1
+
 
 
