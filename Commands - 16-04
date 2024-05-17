@@ -133,6 +133,10 @@ https://github.com/Msocial123/catalogue.git
 
 https://digitalvarys.com/jenkins-declarative-pipeline-with-examples/
 
+Install helm on Jenkins :
+
+wget https://get.helm.sh/helm-v3.9.3-linux-amd64.tar.gz
+tar -xvzf helm-v3.9.3-linux-amd64.tar.gz
 sudo chmod +x linux-amd64/helm && sudo mv linux-amd64/helm /usr/bin/helm
 helm version --short
 
