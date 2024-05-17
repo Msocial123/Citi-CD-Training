@@ -127,5 +127,9 @@ Connect to cluster :
 
 aws eks update-kubeconfig –name test-cluster –region ap-south-1
 
+Project Repo :
+
+https://github.com/Msocial123/catalogue.git
+
 
 
