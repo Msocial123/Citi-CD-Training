@@ -100,3 +100,9 @@ Kubectl get svc -- Check the FrondEnd - Exteral - Get the Load Balancer URL - We
 Installing Jenkins on EC2 :
 
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
+
+
+update-alternatives 
+
+update-alternatives --config java 
+
