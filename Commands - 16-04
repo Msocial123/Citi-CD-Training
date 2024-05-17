@@ -136,6 +136,6 @@ https://digitalvarys.com/jenkins-declarative-pipeline-with-examples/
 sudo chmod +x linux-amd64/helm && sudo mv linux-amd64/helm /usr/bin/helm
 helm version --short
 
-
+https://github.com/helm/helm/releases/download/v3.15.0/helm-v3.15.0-darwin-amd64.tar.gz.asc
 
 
