@@ -131,5 +131,11 @@ Project Repo :
 
 https://github.com/Msocial123/catalogue.git
 
+https://digitalvarys.com/jenkins-declarative-pipeline-with-examples/
+
+sudo chmod +x linux-amd64/helm && sudo mv linux-amd64/helm /usr/bin/helm
+helm version --short
+
+
 
 
